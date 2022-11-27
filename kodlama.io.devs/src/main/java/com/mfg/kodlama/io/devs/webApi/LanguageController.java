@@ -48,6 +48,7 @@ public class LanguageController {
 
 	@DeleteMapping("/{id}")
 	public void delete(@PathVariable(name = "id") int id) throws Exception {
+		// Test
 		languageService.delete(id);
 	}
 }
